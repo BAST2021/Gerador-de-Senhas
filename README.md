@@ -22,7 +22,7 @@ Interface Simples: Fácil de usar via linha de comando
 
 ## 🚀 Como Usar
 
-Certifique-se de ter o Lua instalado em seu sistema
+Verifique se de ter o Lua instalado em seu sistema
 
 Execute o script:
 
@@ -41,3 +41,6 @@ Quantos caracteres deseja na senha :
 
 Sua Senha é :  
 aB3$kL9!pQ2*
+
+
+
