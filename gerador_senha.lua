@@ -1,19 +1,19 @@
 os.execute("chcp 65001")
 os.execute('cls')
 
-local letters_MA = {"A","B","C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" }
-local letters_MI = {"a" ,"b", "c", "d","e","f", "g","i", "j", "k", "l", "m", "n","o", "p", "q", "r", "s","t","u","v","w", "x", "y","z"}
+local letters_Ma = {"A","B","C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" }
+local letters_Mi = {"a" ,"b", "c", "d","e","f", "g","i", "j", "k", "l", "m", "n","o", "p", "q", "r", "s","t","u","v","w", "x", "y","z"}
 local numbers = {"1","2","3","4","5","6","7","8","9","0"}
 local special = {"#","$","&","!","*","@","|","/"}
 
 local caracterLists = {
-    letters_MA,
-    letters_MI,
+    letters_Ma,
+    letters_Mi,
     numbers,
     special
 }
 
-print("Quantos caratecteres deseja na senha : ")
+print("Digite a quantidade de caracteres que deseja : ")
 local length = io.read("*n")
 local password = ""
 
@@ -31,6 +31,7 @@ for i = 1, length, 1 do
     
 end
 
-print("Sua Senha é :  ")
+print("Sua nova senha é :  ")
 print(password)
+
 
